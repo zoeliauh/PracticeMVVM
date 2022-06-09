@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B36D55428525D7700EC04AE /* ViewControllerViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B36D55328525D7700EC04AE /* ViewControllerViewmodel.swift */; };
+		6B36D55628525D8600EC04AE /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B36D55528525D8600EC04AE /* ListCellViewModel.swift */; };
 		FE52B370235997EA00EDD4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52B36F235997EA00EDD4AB /* AppDelegate.swift */; };
 		FE52B372235997EA00EDD4AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52B371235997EA00EDD4AB /* SceneDelegate.swift */; };
 		FE52B374235997EA00EDD4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52B373235997EA00EDD4AB /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B36D55328525D7700EC04AE /* ViewControllerViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewmodel.swift; sourceTree = "<group>"; };
+		6B36D55528525D8600EC04AE /* ListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
 		FE52B36C235997EA00EDD4AB /* PracticeMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE52B36F235997EA00EDD4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE52B371235997EA00EDD4AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B36D55228525D5E00EC04AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B36D55328525D7700EC04AE /* ViewControllerViewmodel.swift */,
+				6B36D55528525D8600EC04AE /* ListCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FE52B363235997EA00EDD4AB = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +140,7 @@
 		FE52B36E235997EA00EDD4AB /* PracticeMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6B36D55228525D5E00EC04AE /* ViewModel */,
 				FE52B3A423599A4A00EDD4AB /* Tools */,
 				FE52B3A323599A3600EDD4AB /* Controller */,
 				FE52B3A223599A2E00EDD4AB /* Model */,
@@ -370,7 +384,9 @@
 				FE52B3BA23599D4E00EDD4AB /* DownloadProtocol.swift in Sources */,
 				FEF634642359BC38005734E2 /* ListCell.swift in Sources */,
 				FE52B3BD23599D5D00EDD4AB /* DownloadMusic.swift in Sources */,
+				6B36D55428525D7700EC04AE /* ViewControllerViewmodel.swift in Sources */,
 				FE52B3C123599E2A00EDD4AB /* ConvertableProtocol.swift in Sources */,
+				6B36D55628525D8600EC04AE /* ListCellViewModel.swift in Sources */,
 				FE52B370235997EA00EDD4AB /* AppDelegate.swift in Sources */,
 				FE52B372235997EA00EDD4AB /* SceneDelegate.swift in Sources */,
 				FE52B3B323599D4E00EDD4AB /* RequestTasks.swift in Sources */,
